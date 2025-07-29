@@ -1,16 +1,15 @@
 ## Hi there 👋
+♟️ Chess.com Project
+Welcome to my Chess.com project! This repository contains tools and features built around the Chess.com API, enabling access to player statistics, game history, leaderboards, and more.
 
-<!--
-**ARCHITVARMA15/architvarma15** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🔍 Project Overview
+This project was developed to interact with Chess.com data and provide meaningful insights into player performance, game analytics, and global stats. Whether you're analyzing your own games, tracking top players, or exploring new chess metrics, this tool helps bring Chess.com data to life.
 
-Here are some ideas to get you started:
+✨ Features
+🔗 Connects to the Chess.com Public API
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+📊 Retrieves and displays player statistics
+
+♟️ Downloads and analyzes game history
+
+👉 Watch the demo video here to see it in action!
