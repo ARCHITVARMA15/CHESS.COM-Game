@@ -13,4 +13,4 @@ This project was developed to interact with Chess.com data and provide meaningfu
 ♟️ Downloads and analyzes game history
 
 👉 Watch the demo video here to see it in action!
-https://github.com/ARCHITVARMA15/architvarma15/blob/main/chess.mp4
+https://drive.google.com/file/d/1zXc0lAiZSSA05sDbmZ_w4psNfQaoX7UC/view?usp=sharing
