@@ -1,0 +1,67 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading....</title>
+    <script>
+        setTimeout(()=>{
+            window.location.href= "/chess";
+        },3000)
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+</head>
+<body class="bg-black text-white flex flex-col items-center justify-center min-h-screen">
+    <div class="text-center">
+        <h1 class="text-3xl">Welcome <%= username %> ♟️</h1>
+        <div class="loader ease-linear rounded-full border-8 border-t-8 border-gray-200 h-20 w-20 mb-4 animate-spin"></div>
+        <p>Loading your game...</p>
+    </div>
+</body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading...</title>
+
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Redirect to /chess after 3 seconds -->
+  <script>
+    setTimeout(() => {
+      window.location.href = "/chess";
+    }, 3000);
+  </script>
+
+  <!-- Spinner Style -->
+  <style>
+    .loader {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #3498db;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      margin: 20px auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body class="bg-black text-white flex flex-col items-center justify-center min-h-screen">
+  <div class="text-center">
+    <h1 class="text-3xl mb-6">Welcome const <%= username %> ♟️</h1>
+    <div class="loader"></div>
+    <p class="mt-4">Loading your game...</p>
+  </div>
+</body>
+</html>
